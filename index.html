@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="img/devchallenges.png" />
 
     <link
       rel="shortcut icon"
@@ -16,80 +16,64 @@
       href="https://devchallenges.io/"
     />
 
+    <link href="style.css" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
 
     <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
+    <main class="flex flex-row justify-around mt-10">
+      <h1 class="text-4xl font-serif">The creative crew</h1>
+      <div class="w-80">
+        <h2 class="font-bold text-lg">WHO WE ARE</h2>
+        <p class="text-lg">
+          We are of creatively diverse. driven. innecesary individuals working
+          in various locations from the world.
         </p>
       </div>
+    </main>
+    <section class="grid grid-cols-3 gap-5 mt-20 justify-items-center">
+      <div class="relative w-80 h-auto">
+        <img class="w-56" src="img/photo1.png" alt="Bill Mohany" />
+        <figcaption class="text-lg font-bold mt-3">Bill Mahony</figcaption>
+        <p class="font-serif uppercase absolute top-16 right-0 rotate-90"<>Product owner</p>
+      </div>
+      <div class="relative w-80 h-auto mt-20">
+        <img class="w-56" src="img/photo2.png" alt="Griff Richards" />
+        <figcaption class="font-mono text-lg font-bold mt-3">Saba Cabrera</figcaption>
+        <p class="font-serif uppercase absolute top-12 right-0 rotate-90">Art Director</p>
+      </div>
+      <div class="relative w-80 h-auto">
+        <img class="w-56" src="img/photo3.png" alt="Shae Le" />
+        <figcaption class="text-lg font-bold mt-3">Shae Le</figcaption>
+        <p class="font-serif uppercase absolute top-10 right-0 rotate-90">Tech Lead</p>
+      </div>
+    </section>
+    <section class="grid grid-cols-3 gap-5 mt-20 justify-items-center">
+      <div class="relative w-80">
+        <img class="w-56" src="img/photo4.png" alt="Skylan Lu" />
+        <figcaption class="text-lg font-bold mt-3">Skylan Lu</figcaption>
+        <p class="font-serif uppercase absolute top-12 right-0 rotate-90">Ux Designer</p>
+      </div>
+      <div class="relative w-80 mt-20">
+        <img class="w-56" src="img/photo5.png" alt="Griff Richards" />
+        <figcaption class="text-lg font-bold mt-3">Griff Richards</figcaption>
+        <p class="font-serif uppercase absolute top-10 right-0 rotate-90">Developer</p>
+      </div>
+      <div class="relative w-80">
+        <img class="w-56" src="img/photo6.png" alt="Stan John" />
+        <figcaption class="text-lg font-bold mt-3">Stan John</figcaption>
+        <p class="font-serif uppercase absolute top-10 right-0 rotate-90">Developer</p>
+      </div>
+    </section>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+    
   </body>
 </html>
